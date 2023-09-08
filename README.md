@@ -12,6 +12,6 @@ un test en **gras** et en *italique*
 1. pizza
 2. eau
 3. glace
-4. appris la commande cat
+4. appris la commande cat  
 `print('salut')`
 [liens vers le killercoda](https://killercoda.com/emelin)
