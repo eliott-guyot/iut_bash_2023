@@ -29,6 +29,7 @@ cd ..  revient d'un en arriere
 - <kbd> tab </kbd> : autocomplétion du début d'une commande
 
 ## 1.4 chemin relatif et absolue
+  double tab montre les fichiers d'un dossier
 `../` : permet d'aller dans le dossier parent 
 
     ce que sont les dossiers / et ..
@@ -43,4 +44,7 @@ cd ..  revient d'un en arriere
 ## 1.5 mkdir
 echo repete ce qu'on lui donne, ondoit separer les arguments par un espace
 mkdir créé un fichier
+les mots commençant par _ sont des options et le autres de arguments
+Le double tiret : les options ainsi signalées le sont en version longue.
+
 [liens vers le killercoda](https://killercoda.com/emelin)
