@@ -5,5 +5,5 @@ un test en **gras** et en *italique*
 
 - item 1
 - item 2
-  -sous titre
-  -sous item
+  - sous titre
+  - sous item
