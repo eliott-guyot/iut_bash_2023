@@ -49,7 +49,7 @@ Le double tiret : les options ainsi signalées le sont en version longue.
 
 [liens vers le killercoda](https://killercoda.com/emelin)
 
-
+jghgjghj
   ## séance2
   nano 'chemin' ->vers un fichier
   ouvre un editeur de fichier
