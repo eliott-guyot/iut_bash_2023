@@ -49,7 +49,7 @@ Le double tiret : les options ainsi signalées le sont en version longue.
 
 [liens vers le killercoda](https://killercoda.com/emelin)
 
-jghgjghj
+
   ## séance2
   nano 'chemin' ->vers un fichier
   ouvre un editeur de fichier
@@ -68,13 +68,12 @@ jghgjghj
   rm 'chemin vers un plan'
   supprime un fichier
   **rm -r efface tout l'ordi**
-   rm -r 'chemin vers le dossier'
-   --recursive  -> efface tous les dossiers et fichiers enfants du chemin spécifié
-
+  - rm -r 'chemin vers le dossier'
+   - --recursive  -> efface tous les dossiers et fichiers enfants du chemin  spécifié
    du 'chemin vers un dossier'
    =disk usage -> permet de connaitre la taille d'un repertoire
-
-   rm -r tavail/
+  rm -r tavail/
+   
    __    _______
    option   argument
 
@@ -102,9 +101,74 @@ To
 
   
 ### killercoda séance 3
-- mv permet de deplacer un fichier(La commande mv permet également de renommer un fichier. Par exemple : mv john.snow commandant renommera john.snow en commandant .)   
+- mv permet de deplacer un fichier(La commande mv permet également de renommer un fichier. Par exemple : mv john.snow commandant renommera john.snow en commandant .)  
+### chmod 
 - chmod permet de donner des perm. c'est à dire: ugo:+ou/:rwx
 (u=user,g=groupe,o=other,r=read,w=write,x=execute)
-
-
+ ca s'ecrit chmod ... nomDuFichier
+### droit
 - --------- se traduit par 0 en octal en fonction de ce qui est marqué( si ca commence par un - c que c'est un fichier, si d c'est u dossier, l pour un lien) 
+- les 3 premier - correspondent à user, groupe, autres
+- en generale pour un fichier txte normal les droit normaux sont -rw-r(w)-r--
+### nano
+- permet de modifier le contenu d'un fichier
+### man
+- man + commande(donne le mannuel de la commande)
+
+### cp
+- cp permet de copier un ou des fichiers vers un endroit donné(ca s'ecrit: pc nomdufichier endroitdepose)
+- ./ affiche le contenue d'un fichier
+### utiliser mv
+- #!/bin/bash (ouvre un interpreteur)
+- mv peut deplacer un fichier mv /home/toto/truc.txt /temp/
+- mv peut deplacer un repertoire mv /home/toto/docs/  /temp/
+- mv peut renomer un fichier mv /home/toto/truc.txt /home/toto/machin.txt 
+### utiliser cp
+- cp copie un fichier dans un autre repertoire
+cp /home/toto/truc.net /temp/
+- cp copie un fichier dans un meme repertoire
+cp /home/toto/truc.txt /home/toto/truc.back
+- copier dans le meme repertoire
+ cp truc.txt machin.txt
+- copier plusieurs fichier
+ cp fichier1 fichie2 ficher3  /tmp/
+- echo $(variable) nous donne le contenu de la var
+- quand on a un espace dans une reponse/nom il faut mettre des "" pour ne pas que ca soit vu comme un arg
+### echo$fichier
+- lance le fichier
+### ./
+represente la ou on est
+### nano affectation
+nomdevar=$(qqc)
+### nano affichage
+echo "texte"+ (si jamais $nomdevar)
+
+### remplir premiere ligne nano (shebang)
+#!/bin/bash
+pour savoir ou est l'interpreteur mettre dans le term "which bash"
+### fichier
+- appelle ses fichier scrpit avec .sh a la fin
+- lui ajouter des droits d'execution(chmod)(chmod (u/g/o+r/w/x) nomdufichier)
+- pour executer le script :  ./nomdufichier.sh
+(./ représente la ou on est)
+### control+shift
+selectionne plusieurs lignes
+
+### echo
+- la commande echo prend en argument tout ce qu'il contient les espaces ne separent pas les arguments
+
+### les ""
+prend en comte uniquement 1 arg, ne tient pas compte des espaces mis dedans
+
+### apt
+- correspond a la commande pour installer
+
+### wc
+workcount
+### nano operation
+- ` nb=$(ls -l *.png|wc -l)`
+$= debut pour une variabe
+|= envoie le resultat dans -l
+
+### $#
+- contient le nb d'argument
