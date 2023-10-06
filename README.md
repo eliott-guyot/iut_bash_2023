@@ -103,8 +103,12 @@ To
 ### killercoda séance 3
 - mv permet de deplacer un fichier(La commande mv permet également de renommer un fichier. Par exemple : mv john.snow commandant renommera john.snow en commandant .)  
 ### chmod 
+- mv permet de deplacer un fichier(La commande mv permet également de renommer un fichier. Par exemple : mv john.snow commandant renommera john.snow en commandant .)  
+### chmod 
 - chmod permet de donner des perm. c'est à dire: ugo:+ou/:rwx
 (u=user,g=groupe,o=other,r=read,w=write,x=execute)
+ ca s'ecrit chmod ... nomDuFichier
+### droit
  ca s'ecrit chmod ... nomDuFichier
 ### droit
 - --------- se traduit par 0 en octal en fonction de ce qui est marqué( si ca commence par un - c que c'est un fichier, si d c'est u dossier, l pour un lien) 
