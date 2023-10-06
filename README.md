@@ -176,3 +176,29 @@ $= debut pour une variabe
 
 ### $#
 - contient le nb d'argument
+
+### []
+-*[]  -> cherche la valeur au debut
+-[]*  -> cherche la valeur à la fin
+-*[]*  -> cherche la valeur dans tout le mot
+- \*a* cherchea parmis qqc
+- {me,re}*s  -> cherche un mot qui commence par me ou re et qui se termine par s
+
+### redirection vers un fichier
+- ls -l > machin.txt 
+ > ecrase
+- ls -l/dev  >>machin.txt
+ >> ajoute
+- 2> = sortie erreur
+- trou noir <>/dev/null
+
+### installation de paquet
+- sudo apt install \<paquet> 
+sudo=super admin
+-sudo apt update  ==mise a jour liste paquet
+-sudo apt upgrade ==mise a jour tous les paquets
+-sudo apt purge \<paquet> ==désinstalle un paquet
+
+### joker
+- cp *.txt toto/
+copie tous les fichier txt dans le repertoire courant dans le repertoire toto
