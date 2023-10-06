@@ -147,9 +147,28 @@ echo "texte"+ (si jamais $nomdevar)
 #!/bin/bash
 pour savoir ou est l'interpreteur mettre dans le term "which bash"
 ### fichier
-- appleler ses fichier scrpit avec .sh a la fin
+- appelle ses fichier scrpit avec .sh a la fin
 - lui ajouter des droits d'execution(chmod)(chmod (u/g/o+r/w/x) nomdufichier)
 - pour executer le script :  ./nomdufichier.sh
 (./ représente la ou on est)
 ### control+shift
 selectionne plusieurs lignes
+
+### echo
+- la commande echo prend en argument tout ce qu'il contient les espaces ne separent pas les arguments
+
+### les ""
+prend en comte uniquement 1 arg, ne tient pas compte des espaces mis dedans
+
+### apt
+- correspond a la commande pour installer
+
+### wc
+workcount
+### nano operation
+- ` nb=$(ls -l *.png|wc -l)`
+$= debut pour une variabe
+|= envoie le resultat dans -l
+
+### $#
+- contient le nb d'argument
