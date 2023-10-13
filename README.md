@@ -202,3 +202,24 @@ sudo=super admin
 ### joker
 - cp *.txt toto/
 copie tous les fichier txt dans le repertoire courant dans le repertoire toto
+
+### wc
+- affiche le nb de ligne octet et caracteres du fichier
+
+### <
+- correspond au fait de lié les deux
+### un scrpit peut lire plusieurs lignes
+### > 
+- creer ou vide commence a mettre dedans
+
+### >> 
+- ajoute dans le fichier sans ecraser
+
+### tail -X
+- pend les derniere lignes a la place de X
+### head -X
+- prend les premiere ligne a la place de X
+### |
+- fait la cmd1 puis la cmd2
+### grep 
+- cherche la valeur donnée
