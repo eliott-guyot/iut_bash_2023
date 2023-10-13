@@ -223,3 +223,5 @@ copie tous les fichier txt dans le repertoire courant dans le repertoire toto
 - fait la cmd1 puis la cmd2
 ### grep 
 - cherche la valeur donnée
+- si '^...' = le tout debut
+- si '...$' = la toute fin
